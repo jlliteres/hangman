@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PatrolPoint : MonoBehaviour
 {
-    //Punto de patrulla para enemigos.
+    //Punto de patrulla para enemigos.ndoand
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.CompareTag("Enemy"))
